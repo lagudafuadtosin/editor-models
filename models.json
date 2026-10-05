@@ -163,6 +163,529 @@
           "sha256": "c831996a6d5a535cf17447b0d7ecc36da6b72696e6fb906852ba6136b9199abb"
         }
       }
+    },
+    "cutout": {
+      "version": 1,
+      "folder": "onnx-community/sam2.1-hiera-tiny-ONNX",
+      "release": "cutout-v1",
+      "source": "https://huggingface.co/onnx-community/sam2.1-hiera-tiny-ONNX/tree/814a066640debee5a91e70aa401fb8e17e030503",
+      "licence": "licences/cutout.txt",
+      "files": {
+        "config.json": {
+          "asset": "config.json",
+          "size": 5814,
+          "sha256": "9813c595dfbbe73c6b40ed269a2d6252915f538b8cdef5955f48c79716414cce"
+        },
+        "preprocessor_config.json": {
+          "asset": "preprocessor_config.json",
+          "size": 749,
+          "sha256": "240c886b428d36b63bbb51b0c17ad4d2668d83ba851a04f09880a2b93f0b7349"
+        },
+        "processor_config.json": {
+          "asset": "processor_config.json",
+          "size": 932,
+          "sha256": "17756f63e17f4e6a8af56dc28dabbddfa23401384b5b2e56367dc1c468db57a5"
+        },
+        "onnx/vision_encoder.onnx": {
+          "asset": "vision_encoder.onnx",
+          "size": 354238,
+          "sha256": "4f30aacd3aaefbca81a0b7fe4c1fc96345570ea0a6f80ced599493d1b3be2e8c"
+        },
+        "onnx/vision_encoder.onnx_data": {
+          "asset": "vision_encoder.onnx_data",
+          "size": 134084864,
+          "sha256": "e83df9866a5afe68ea7f0f721f18f65137fc3acbf0da1c74e946d363e09c69cc"
+        },
+        "onnx/vision_encoder_fp16.onnx": {
+          "asset": "vision_encoder_fp16.onnx",
+          "size": 314925,
+          "sha256": "7773e79d589dada8e1e630cc7eb18b17b2c5b4faeb1eaab5ebf9df618ecbd50a"
+        },
+        "onnx/vision_encoder_fp16.onnx_data": {
+          "asset": "vision_encoder_fp16.onnx_data",
+          "size": 67005504,
+          "sha256": "a4dd3759e9b6a476d991fb3493787992e78777e51462695e1bede71ae258103e"
+        },
+        "onnx/vision_encoder_quantized.onnx": {
+          "asset": "vision_encoder_quantized.onnx",
+          "size": 441167,
+          "sha256": "8800fdd04b9045cb6060ba8962b83c78ce9bb0976da8f030afa073467a888524"
+        },
+        "onnx/vision_encoder_quantized.onnx_data": {
+          "asset": "vision_encoder_quantized.onnx_data",
+          "size": 52573088,
+          "sha256": "ea1f677596dc82cef0dc317d78135d892f4b26e20a4439f899aa58d84965b324"
+        },
+        "onnx/prompt_encoder_mask_decoder.onnx": {
+          "asset": "prompt_encoder_mask_decoder.onnx",
+          "size": 213114,
+          "sha256": "874414704c5d686db7d206a35f6e15d26563d50c8c4468fccc6739bd7e491dcf"
+        },
+        "onnx/prompt_encoder_mask_decoder.onnx_data": {
+          "asset": "prompt_encoder_mask_decoder.onnx_data",
+          "size": 20958208,
+          "sha256": "e9874d900dd4134ed60eab1e97910327c2419e0b2954485d8fd6e7f1a1470f47"
+        },
+        "onnx/prompt_encoder_mask_decoder_quantized.onnx": {
+          "asset": "prompt_encoder_mask_decoder_quantized.onnx",
+          "size": 290416,
+          "sha256": "a5f31dba5a7f03203dc3a130fdd7766f0fea952eb4aac1f55458549170eb51ff"
+        },
+        "onnx/prompt_encoder_mask_decoder_quantized.onnx_data": {
+          "asset": "prompt_encoder_mask_decoder_quantized.onnx_data",
+          "size": 8662016,
+          "sha256": "fdb3179a32388267a944a416c0f992c77a138b69a4bfd94f0bbf7089430d7489"
+        }
+      }
+    },
+    "erase": {
+      "version": 1,
+      "folder": "Carve/LaMa-ONNX",
+      "release": "erase-v1",
+      "source": "https://huggingface.co/Carve/LaMa-ONNX/tree/c3c0c9e468934d62e79c329e35d82dd09ff8c444",
+      "licence": "licences/erase.txt",
+      "files": {
+        "lama_fp32.onnx": {
+          "asset": "lama_fp32.onnx",
+          "size": 208044816,
+          "sha256": "1faef5301d78db7dda502fe59966957ec4b79dd64e16f03ed96913c7a4eb68d6"
+        }
+      }
+    },
+    "upscale": {
+      "version": 1,
+      "folder": "onnx-community/swin2SR-realworld-sr-x4-64-bsrgan-psnr-ONNX",
+      "release": "upscale-v1",
+      "source": "https://huggingface.co/onnx-community/swin2SR-realworld-sr-x4-64-bsrgan-psnr-ONNX/tree/9b3baf051f6708d0b697580489e4415b64c7378e",
+      "licence": "licences/upscale.txt",
+      "files": {
+        "config.json": {
+          "asset": "config.json",
+          "size": 900,
+          "sha256": "a5b12edf44c32eb89700bc2242c5b79783fa550ae716464cbe53697eb0e0e31e"
+        },
+        "preprocessor_config.json": {
+          "asset": "preprocessor_config.json",
+          "size": 152,
+          "sha256": "cbc36266fcc93d5bc1e9ca69bcc648ae9d268918ad14cd3507216740f129cc4d"
+        },
+        "onnx/model.onnx": {
+          "asset": "model.onnx",
+          "size": 53827735,
+          "sha256": "987d88b356554161cbb8f67b7a8f4162cad6dc147839c344e3d5142140f25d6f"
+        }
+      }
+    },
+    "faces": {
+      "version": 1,
+      "folder": "opencv/face_detection_yunet",
+      "release": "faces-v1",
+      "source": "https://huggingface.co/opencv/face_detection_yunet/tree/3cc26e7f1014a5ee5d74a42acee58bafc9d0a310",
+      "licence": "licences/faces.txt",
+      "files": {
+        "face_detection_yunet_2023mar.onnx": {
+          "asset": "face_detection_yunet_2023mar.onnx",
+          "size": 232589,
+          "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4"
+        }
+      }
+    },
+    "depth": {
+      "version": 1,
+      "folder": "onnx-community/depth-anything-v2-small",
+      "release": "depth-v1",
+      "source": "https://huggingface.co/onnx-community/depth-anything-v2-small/tree/4472b7362082ad9968fee890ca0f1e5aca36b93d",
+      "licence": "licences/depth.txt",
+      "files": {
+        "config.json": {
+          "asset": "config.json",
+          "size": 38,
+          "sha256": "3aee5b9bc4f711ee885c2526d871f0c8c6c8c4b26b8e04253d0167f6a83264f5"
+        },
+        "preprocessor_config.json": {
+          "asset": "preprocessor_config.json",
+          "size": 461,
+          "sha256": "03576db3c13dd0471fdf5f5e1428befcb95de063fe699879150b293dc9e0a2c6"
+        },
+        "onnx/model.onnx": {
+          "asset": "model.onnx",
+          "size": 99060839,
+          "sha256": "afb6a5c28f3b6bf1618c6e43f02073ef9dfdc70e937502d51603e57b0a1df10c"
+        },
+        "onnx/model_quantized.onnx": {
+          "asset": "model_quantized.onnx",
+          "size": 27258801,
+          "sha256": "fcf51f1b230362b28690bb9d1809bf0431f29cad20534e3f589bd7285547f20d"
+        }
+      }
+    },
+    "matte": {
+      "version": 1,
+      "folder": "Xenova/modnet",
+      "release": "matte-v1",
+      "source": "https://huggingface.co/Xenova/modnet/tree/fa2fa546052fba4c08921230a26cc69a333fca12",
+      "licence": "licences/matte.txt",
+      "files": {
+        "onnx/model.onnx": {
+          "asset": "model.onnx",
+          "size": 25888640,
+          "sha256": "07c308cf0fc7e6e8b2065a12ed7fc07e1de8febb7dc7839d7b7f15dd66584df9"
+        }
+      }
+    },
+    "translate-en-es": {
+      "version": 1,
+      "folder": "Xenova/opus-mt-en-es",
+      "release": "translate-en-es-v1",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-es/tree/4b002a4c7edd54a7ced58877258b87f7efd3f892",
+      "licence": "licences/translate-en-es.txt",
+      "files": {
+        "config.json": {
+          "asset": "config.json",
+          "size": 1468,
+          "sha256": "499eae1f97eeba63172fc884f92fd727ae803b7ceb79c0f653aa4b011152af2f"
+        },
+        "generation_config.json": {
+          "asset": "generation_config.json",
+          "size": 293,
+          "sha256": "b743baabb7da4c1a2f19fe558bd6b4c0c7c3b0762fcb5ca7a48fe5a2c2219803"
+        },
+        "tokenizer.json": {
+          "asset": "tokenizer.json",
+          "size": 6262682,
+          "sha256": "285eb29e7155ee48851a77960797813f86a125f70d2c1a124f613f1fbd2b19c3"
+        },
+        "tokenizer_config.json": {
+          "asset": "tokenizer_config.json",
+          "size": 282,
+          "sha256": "dfb00189b823fb0f15464e9c4e68dd8594f5e5ef5f8dc497468a37741e73aa1f"
+        },
+        "special_tokens_map.json": {
+          "asset": "special_tokens_map.json",
+          "size": 74,
+          "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723"
+        },
+        "vocab.json": {
+          "asset": "vocab.json",
+          "size": 1720044,
+          "sha256": "b074b4cca0036ade5a39ea97faabd534e1015482c480fc2cb02c6481983eb163"
+        },
+        "source.spm": {
+          "asset": "source.spm",
+          "size": 801636,
+          "sha256": "4dd547c24816a335e7b0b2e63376a8f1b3cbfc671eda5ab808dd44fdadaa8791"
+        },
+        "target.spm": {
+          "asset": "target.spm",
+          "size": 825924,
+          "sha256": "e236ee6d866b635c0142114f8647f39831f9d92534aa2aad75c942f6a78ad0e3"
+        },
+        "onnx/encoder_model_quantized.onnx": {
+          "asset": "encoder_model_quantized.onnx",
+          "size": 52899742,
+          "sha256": "03434edd1147e6c49e22066e9dc5888235e99cc35a6711d1c4ea5b06455d5da9"
+        },
+        "onnx/decoder_model_merged_quantized.onnx": {
+          "asset": "decoder_model_merged_quantized.onnx",
+          "size": 60212804,
+          "sha256": "58ee5ddd6e22d1693d8722b90c1486afb93700a4376cf28fd74175052ad530ae"
+        }
+      }
+    },
+    "translate-en-fr": {
+      "version": 1,
+      "folder": "Xenova/opus-mt-en-fr",
+      "release": "translate-en-fr-v1",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-fr/tree/28726206f80896b90035bd99cccd5cc1e151f916",
+      "licence": "licences/translate-en-fr.txt",
+      "files": {
+        "config.json": {
+          "asset": "config.json",
+          "size": 1411,
+          "sha256": "b522b73fcc86f77981349c1df2a2e041eed0dbcbea4acf2635019cf21d51ffc0"
+        },
+        "generation_config.json": {
+          "asset": "generation_config.json",
+          "size": 293,
+          "sha256": "f9a4824ec78c61b4a95afc43bbb6a9545a44ccf1c01d0963a286e799b9e7b256"
+        },
+        "tokenizer.json": {
+          "asset": "tokenizer.json",
+          "size": 5637839,
+          "sha256": "8391785c1a2139e7af4678571ccd8dc654ecbb72e4be186940f65d7c604f0246"
+        },
+        "tokenizer_config.json": {
+          "asset": "tokenizer_config.json",
+          "size": 280,
+          "sha256": "eb8dfaa142fe03627c8d035415f56c46284b6ee4a16e54c6e8236928ac5a1170"
+        },
+        "special_tokens_map.json": {
+          "asset": "special_tokens_map.json",
+          "size": 74,
+          "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723"
+        },
+        "vocab.json": {
+          "asset": "vocab.json",
+          "size": 1458196,
+          "sha256": "f2ba9c69ae20f96b8bd821239a9152be422394f980350b77907cffc183db5f2d"
+        },
+        "source.spm": {
+          "asset": "source.spm",
+          "size": 778395,
+          "sha256": "173e9f493a668fe396d599e28d414a201193094e6ffd7a4678e5aab0f6d3d838"
+        },
+        "target.spm": {
+          "asset": "target.spm",
+          "size": 802397,
+          "sha256": "78d0e717c77053f1c4b856d8661d9cb87c64f083a35418c087b9146300e4f585"
+        },
+        "onnx/encoder_model_quantized.onnx": {
+          "asset": "encoder_model_quantized.onnx",
+          "size": 50090398,
+          "sha256": "0a81bdba62f53223740a8c6c6f58e716eba8ea1f92dfa569caf27ed5e3b6a0f7"
+        },
+        "onnx/decoder_model_merged_quantized.onnx": {
+          "asset": "decoder_model_merged_quantized.onnx",
+          "size": 57381512,
+          "sha256": "333b244bce16023df04541c8cf9fd60aec9b0569da393c4b831d561897b0bda8"
+        }
+      }
+    },
+    "translate-en-de": {
+      "version": 1,
+      "folder": "Xenova/opus-mt-en-de",
+      "release": "translate-en-de-v1",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-de/tree/1ca130c44c4c5441ef16d48aae521a424ab644f7",
+      "licence": "licences/translate-en-de.txt",
+      "files": {
+        "config.json": {
+          "asset": "config.json",
+          "size": 1411,
+          "sha256": "517955ebf66cd6523f9982851dd41771b74fb2d9c00b4933ba2922ac7a63336f"
+        },
+        "generation_config.json": {
+          "asset": "generation_config.json",
+          "size": 293,
+          "sha256": "cd16a899388283889c6e87b903c689ce73430aaa18335415f9d9ea770606538e"
+        },
+        "tokenizer.json": {
+          "asset": "tokenizer.json",
+          "size": 5498450,
+          "sha256": "8e0fcf45621ea87fa680c7f9969c37a7f819c1f4c7658a2e6e0879b866a14b17"
+        },
+        "tokenizer_config.json": {
+          "asset": "tokenizer_config.json",
+          "size": 280,
+          "sha256": "4500a1295197174119cf17f9b2e6eab2d5c3a9c64009fb1e37ebd2868bf1161c"
+        },
+        "special_tokens_map.json": {
+          "asset": "special_tokens_map.json",
+          "size": 74,
+          "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723"
+        },
+        "vocab.json": {
+          "asset": "vocab.json",
+          "size": 1389436,
+          "sha256": "d5acea957b265a78554999144459c5e391e0df525864edc8287bc090290baa44"
+        },
+        "source.spm": {
+          "asset": "source.spm",
+          "size": 768489,
+          "sha256": "678f2a1177d8389f67b66299762dcc4fc567e89b07e212ba91b0c56daecf47ce"
+        },
+        "target.spm": {
+          "asset": "target.spm",
+          "size": 796845,
+          "sha256": "bbd1f495eea99c8e21ae086d9146e0fa7b096c3dfdd9ba07ab8b631889df5c9b"
+        },
+        "onnx/encoder_model_quantized.onnx": {
+          "asset": "encoder_model_quantized.onnx",
+          "size": 49366942,
+          "sha256": "15834b45fabd2dfb8c6c029b3ca3e7289aeefd90ece798ce42bcf548d1bd3b8d"
+        },
+        "onnx/decoder_model_merged_quantized.onnx": {
+          "asset": "decoder_model_merged_quantized.onnx",
+          "size": 56652404,
+          "sha256": "8b46a825964cdd182fe47cc780f0fb87d357eae1f47cf20aa63c1c09be5b510c"
+        }
+      }
+    },
+    "translate-es-en": {
+      "version": 1,
+      "folder": "Xenova/opus-mt-es-en",
+      "release": "translate-es-en-v1",
+      "source": "https://huggingface.co/Xenova/opus-mt-es-en/tree/eadfd7c658a9d8929ac3b8e996b68a68e2c7d480",
+      "licence": "licences/translate-es-en.txt",
+      "files": {
+        "config.json": {
+          "asset": "config.json",
+          "size": 1433,
+          "sha256": "fab3a7f93185bc5aa7b419f6a1e6e74d98c8f2a506c94493d3019bf46da3478d"
+        },
+        "generation_config.json": {
+          "asset": "generation_config.json",
+          "size": 293,
+          "sha256": "b743baabb7da4c1a2f19fe558bd6b4c0c7c3b0762fcb5ca7a48fe5a2c2219803"
+        },
+        "tokenizer.json": {
+          "asset": "tokenizer.json",
+          "size": 6262682,
+          "sha256": "285eb29e7155ee48851a77960797813f86a125f70d2c1a124f613f1fbd2b19c3"
+        },
+        "tokenizer_config.json": {
+          "asset": "tokenizer_config.json",
+          "size": 282,
+          "sha256": "e1fac15a910169d5b5ec07a13b0374273626a239b5142db10be229ca66cc52a9"
+        },
+        "special_tokens_map.json": {
+          "asset": "special_tokens_map.json",
+          "size": 74,
+          "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723"
+        },
+        "vocab.json": {
+          "asset": "vocab.json",
+          "size": 1720044,
+          "sha256": "b074b4cca0036ade5a39ea97faabd534e1015482c480fc2cb02c6481983eb163"
+        },
+        "source.spm": {
+          "asset": "source.spm",
+          "size": 825924,
+          "sha256": "e236ee6d866b635c0142114f8647f39831f9d92534aa2aad75c942f6a78ad0e3"
+        },
+        "target.spm": {
+          "asset": "target.spm",
+          "size": 801636,
+          "sha256": "4dd547c24816a335e7b0b2e63376a8f1b3cbfc671eda5ab808dd44fdadaa8791"
+        },
+        "onnx/encoder_model_quantized.onnx": {
+          "asset": "encoder_model_quantized.onnx",
+          "size": 52899742,
+          "sha256": "c01e70f8455efc350831aa2af7ed187b16829241f0018ba07d1ba643a391bc18"
+        },
+        "onnx/decoder_model_merged_quantized.onnx": {
+          "asset": "decoder_model_merged_quantized.onnx",
+          "size": 60212804,
+          "sha256": "4cd91ab30240d295ce907b5100826031838c672005e57e524d711122d75605fa"
+        }
+      }
+    },
+    "translate-fr-en": {
+      "version": 1,
+      "folder": "Xenova/opus-mt-fr-en",
+      "release": "translate-fr-en-v1",
+      "source": "https://huggingface.co/Xenova/opus-mt-fr-en/tree/6b166a182780e118c997879d0ad5be4b53671644",
+      "licence": "licences/translate-fr-en.txt",
+      "files": {
+        "config.json": {
+          "asset": "config.json",
+          "size": 1411,
+          "sha256": "6c2851f154d7b88c7767e4fdcf8a5694a36a456bfa6cbcde1b13fdbade3b56f6"
+        },
+        "generation_config.json": {
+          "asset": "generation_config.json",
+          "size": 293,
+          "sha256": "f9a4824ec78c61b4a95afc43bbb6a9545a44ccf1c01d0963a286e799b9e7b256"
+        },
+        "tokenizer.json": {
+          "asset": "tokenizer.json",
+          "size": 5637839,
+          "sha256": "8391785c1a2139e7af4678571ccd8dc654ecbb72e4be186940f65d7c604f0246"
+        },
+        "tokenizer_config.json": {
+          "asset": "tokenizer_config.json",
+          "size": 280,
+          "sha256": "bba9e6b1e3b9724d15ebacaf11eaac360c5ae3f4139bcdef0ee1610592eaa3fe"
+        },
+        "special_tokens_map.json": {
+          "asset": "special_tokens_map.json",
+          "size": 74,
+          "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723"
+        },
+        "vocab.json": {
+          "asset": "vocab.json",
+          "size": 1458196,
+          "sha256": "f2ba9c69ae20f96b8bd821239a9152be422394f980350b77907cffc183db5f2d"
+        },
+        "source.spm": {
+          "asset": "source.spm",
+          "size": 802397,
+          "sha256": "78d0e717c77053f1c4b856d8661d9cb87c64f083a35418c087b9146300e4f585"
+        },
+        "target.spm": {
+          "asset": "target.spm",
+          "size": 778395,
+          "sha256": "173e9f493a668fe396d599e28d414a201193094e6ffd7a4678e5aab0f6d3d838"
+        },
+        "onnx/encoder_model_quantized.onnx": {
+          "asset": "encoder_model_quantized.onnx",
+          "size": 50090398,
+          "sha256": "e727cb26ac6bf816394c49671af69c9ae5798868fed1e40849872415dffc1772"
+        },
+        "onnx/decoder_model_merged_quantized.onnx": {
+          "asset": "decoder_model_merged_quantized.onnx",
+          "size": 57381512,
+          "sha256": "73bc7ac8e29c42e6f212ebcc29a2991d3646a04aabb642c0036aa54b40e4e1a9"
+        }
+      }
+    },
+    "translate-de-en": {
+      "version": 1,
+      "folder": "Xenova/opus-mt-de-en",
+      "release": "translate-de-en-v1",
+      "source": "https://huggingface.co/Xenova/opus-mt-de-en/tree/399dfd68706739fffd503f876093e455ae268a06",
+      "licence": "licences/translate-de-en.txt",
+      "files": {
+        "config.json": {
+          "asset": "config.json",
+          "size": 1376,
+          "sha256": "6754743ec4754957d8552dad869d1314f3af6626b67446ec4cebe5e2fbaa0fc4"
+        },
+        "generation_config.json": {
+          "asset": "generation_config.json",
+          "size": 293,
+          "sha256": "cd16a899388283889c6e87b903c689ce73430aaa18335415f9d9ea770606538e"
+        },
+        "tokenizer.json": {
+          "asset": "tokenizer.json",
+          "size": 5498450,
+          "sha256": "8e0fcf45621ea87fa680c7f9969c37a7f819c1f4c7658a2e6e0879b866a14b17"
+        },
+        "tokenizer_config.json": {
+          "asset": "tokenizer_config.json",
+          "size": 280,
+          "sha256": "e3687c40400600366d9b073a3fd9f75dc8b40d5a9d6e5c92544cf2e9592abe6c"
+        },
+        "special_tokens_map.json": {
+          "asset": "special_tokens_map.json",
+          "size": 74,
+          "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723"
+        },
+        "vocab.json": {
+          "asset": "vocab.json",
+          "size": 1389436,
+          "sha256": "d5acea957b265a78554999144459c5e391e0df525864edc8287bc090290baa44"
+        },
+        "source.spm": {
+          "asset": "source.spm",
+          "size": 796845,
+          "sha256": "bbd1f495eea99c8e21ae086d9146e0fa7b096c3dfdd9ba07ab8b631889df5c9b"
+        },
+        "target.spm": {
+          "asset": "target.spm",
+          "size": 768489,
+          "sha256": "678f2a1177d8389f67b66299762dcc4fc567e89b07e212ba91b0c56daecf47ce"
+        },
+        "onnx/encoder_model_quantized.onnx": {
+          "asset": "encoder_model_quantized.onnx",
+          "size": 49366942,
+          "sha256": "4cedda8f8c89b72a42b3c6cd1e7a27f2de24457093e3bf80cb3e46829641fcd8"
+        },
+        "onnx/decoder_model_merged_quantized.onnx": {
+          "asset": "decoder_model_merged_quantized.onnx",
+          "size": 56652404,
+          "sha256": "4712800584b2d77c2f9e620bf29523e2b20b62f65ade5011ee01780e2b0ea5d3"
+        }
+      }
     }
   }
 }

@@ -32,6 +32,7 @@ function sha256(path) {
 const tree = new Map()
 for (const dir of ['', 'onnx']) {
   const res = await fetch(`https://huggingface.co/api/models/${repo}/tree/${revision}${dir ? '/' + dir : ''}`)
+  if (dir && res.status === 404) continue // no onnx folder in this model
   if (!res.ok) throw new Error(`tree ${dir}: ${res.status}`)
   for (const e of await res.json()) if (e.type === 'file') tree.set(e.path, e)
 }
